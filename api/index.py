@@ -8,7 +8,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-Type', 'application/json')
         self.send_header('Access-Control-Allow-Origin', '*')
         self.end_headers()
-        # 示例 NBA 数据（不会超时）
+        # 示例 NBA 数据（秒开，不会超时）
         games_data = {
             "games": [
                 {
